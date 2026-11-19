@@ -481,7 +481,7 @@ function renderSummary() {
                     rel="noopener noreferrer"
                     class="contact-link"
                 >
-                    Private message on LinkedIn →
+                    Private message on LinkedIn <i class="fa-solid fa-arrow-right"></i>
                 </a>
             </div>
 
