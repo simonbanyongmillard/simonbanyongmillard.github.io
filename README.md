@@ -1,1 +1,1 @@
-Navigate to simonbanyongmillard.github.io to view my portfolio.
+[View my portfolio](https://simonbanyongmillard.github.io/)
