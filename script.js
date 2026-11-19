@@ -9,8 +9,6 @@ const portfolio = {
 
     profession: "Game Designer and Programmer",
 
-    email: "YOUR_EMAIL@example.com",
-
     github: "https://github.com/simonbanyongmillard/simonbanyongmillard.github.io",
 
     linkedin: "https://www.linkedin.com/in/simon-millard-24962652/",
@@ -397,20 +395,6 @@ addSocialLink(
     "LinkedIn"
 );
 
-if (portfolio.email &&
-    portfolio.email !== "YOUR_EMAIL@example.com") {
-
-    const emailLink = document.createElement("a");
-
-    emailLink.href = `mailto:${encodeURIComponent(portfolio.email)}`;
-    emailLink.setAttribute("aria-label", "Email");
-    emailLink.innerHTML = '<i class="fa-solid fa-envelope"></i>';
-
-    socialLinks.appendChild(emailLink);
-
-}
-
-
 // Main content container
 
 const content = document.getElementById("content");
@@ -484,26 +468,21 @@ function renderSummary() {
             </div>
 
 
-            <div class="contact-card">
-
-                <h3>Contact</h3>
-
+            <div class="contact-section">
+                <h2>Get in Touch</h2>
+            
                 <p>
-                    Interested in discussing game development,
-                    programming or professional opportunities?
+                    Interested in working together or discussing a project?
                 </p>
-
-                ${portfolio.email &&
-                  portfolio.email !== "YOUR_EMAIL@example.com"
-                    ? `<p>
-                        <i class="fa-solid fa-envelope"></i>
-                        <a href="mailto:${encodeURIComponent(portfolio.email)}">
-                            ${escapeHTML(portfolio.email)}
-                        </a>
-                    </p>`
-                    : ""
-                }
-
+            
+                <a
+                    href="${safeURL(portfolio.linkedin) || '#'}"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="contact-link"
+                >
+                    Private message on LinkedIn →
+                </a>
             </div>
 
         </section>
