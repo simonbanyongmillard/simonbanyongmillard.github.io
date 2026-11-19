@@ -35,7 +35,7 @@ const portfolio = {
     hobbies: [
         {
             name: "Dungeons & Dragons",
-            description: "Playing tabletop role-playing games and exploring fantasy worlds."
+            description: "Playing tabletop role-playing games and exploring fantasy worlds. Both as a Dungeon Master and player."
         },
         {
             name: "Video Games",
@@ -48,10 +48,6 @@ const portfolio = {
         {
             name: "Travel & Hiking",
             description: "Exploring new places and enjoying the outdoors."
-        },
-        {
-            name: "Family Time",
-            description: "Spending time and playing with my kids."
         }
     ],
 
@@ -430,26 +426,68 @@ const content = document.getElementById("content");
 // SUMMARY
 // =====================================================
 
+
 function renderSummary() {
 
     return `
 
         <section class="section">
 
-            <div class="eyebrow">01 / PROFILE</div>
+            <!-- PROFILE -->
 
-            <div class="summary-intro">
+            <div class="section-header">
 
-                <h2>
-                    Game Designer &amp; Programmer
-                </h2>
+                <div class="eyebrow">01 / PROFILE</div>
 
-                <div class="summary-text">
+                <div class="summary-intro">
 
-                    ${portfolio.summary.map(paragraph => `
+                    <h2>Game Designer &amp; Programmer</h2>
 
-                        <p>${escapeHTML(paragraph)}</p>
+                    <div class="summary-text">
 
+                        ${portfolio.summary.map(paragraph => `
+                            <p>${escapeHTML(paragraph)}</p>
+                        `).join("")}
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- EDUCATION -->
+
+            <div class="summary-section">
+
+                <div class="section-header">
+
+                    <div class="eyebrow">02 / ACADEMIC BACKGROUND</div>
+
+                    <h2 class="section-title">Education</h2>
+
+                    <p class="section-description">
+                        Academic qualifications from the IT University of Copenhagen.
+                    </p>
+
+                </div>
+
+                <div class="education-grid">
+
+                    ${portfolio.education.map(item => `
+                        <article class="education-card">
+
+                            <div class="degree">
+                                ${escapeHTML(item.degree)}
+                            </div>
+
+                            <h3>${escapeHTML(item.title)}</h3>
+
+                            <p>${escapeHTML(item.institution)}</p>
+
+                            <p>${escapeHTML(item.year)}</p>
+
+                        </article>
                     `).join("")}
 
                 </div>
@@ -457,76 +495,68 @@ function renderSummary() {
             </div>
 
 
-            <div class="section-header">
+            <!-- HOBBIES & INTERESTS -->
 
-                <div class="eyebrow">02 / ACADEMIC BACKGROUND</div>
+            <div class="summary-section">
 
-                <h2 class="section-title">Education</h2>
+                <div class="section-header">
 
-                <p class="section-description">
-                    Academic qualifications from the IT University of Copenhagen.
-                </p>
+                    <div class="eyebrow">03 / PERSONAL</div>
 
-            </div>
+                    <h2 class="section-title">Hobbies &amp; Interests</h2>
 
+                    <p class="section-description">
+                        Outside of development, I enjoy exploring games, creative ideas, and the outdoors.
+                    </p>
+                </div>
 
-            <div class="education-grid">
+                <div class="hobbies-list">
 
-                ${portfolio.education.map(item => `
+                    ${portfolio.hobbies.map(hobby => `
+                        <div class="hobby-item">
 
-                    <article class="education-card">
+                            <h3>${escapeHTML(hobby.name)}</h3>
 
-                        <div class="degree">
-                            ${escapeHTML(item.degree)}
+                            <p>${escapeHTML(hobby.description)}</p>
+
                         </div>
+                    `).join("")}
 
-                        <h3>${escapeHTML(item.title)}</h3>
-
-                        <p>${escapeHTML(item.institution)}</p>
-
-                        <p>${escapeHTML(item.year)}</p>
-
-                    </article>
-
-                `).join("")}
+                </div>
 
             </div>
-</p>
-            <div class="section-header">
 
-                <div class="eyebrow">03 / PERSONAL</div>
 
-                <h2 class="section-title">Hobbies & Interests</h2>
-            </div>
-        
-            <div class="hobbies-list">
-                ${portfolio.hobbies.map(hobby => `
-                    <div class="hobby-item">
-                        <h3>${escapeHTML(hobby.name)}</h3>
-                        <p>${escapeHTML(hobby.description)}</p>
-                    </div>
-                `).join("")}
-            </div>
-</p>
-            <div class="section-header">
-                <div class="eyebrow">04 / CONTACT</div>
+            <!-- CONTACT -->
 
-                <h2 class="section-title">Get in Touch</h2>
-                
-                <p class="section-description">
-                    Interested in working together or discussing a project?
-                </p>
-            </div>
-            
-            <div class="contact-section">
-                <a
-                    href="${safeURL(portfolio.linkedin) || '#'}"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="contact-link"
-                >
-                Send me a private message on LinkedIn <i class="fa-solid fa-arrow-right"></i>
-                </a>
+            <div class="summary-section">
+
+                <div class="section-header">
+
+                    <div class="eyebrow">04 / CONTACT</div>
+
+                    <h2 class="section-title">Get in Touch</h2>
+
+                    <p class="section-description">
+                        Interested in working together or discussing a project?
+                    </p>
+
+                </div>
+
+                <div class="contact-section">
+
+                    <a
+                        href="${safeURL(portfolio.linkedin) || '#'}"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="contact-link"
+                    >
+                        Send me a private message on LinkedIn
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
             </div>
 
         </section>
