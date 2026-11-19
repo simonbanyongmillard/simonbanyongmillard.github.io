@@ -491,7 +491,7 @@ function renderSummary() {
                 `).join("")}
 
             </div>
-
+</p>
             <div class="section-header">
 
                 <div class="eyebrow">03 / PERSONAL</div>
@@ -507,25 +507,25 @@ function renderSummary() {
                     </div>
                 `).join("")}
             </div>
-
+</p>
             <div class="section-header">
                 <div class="eyebrow">04 / CONTACT</div>
 
                 <h2 class="section-title">Get in Touch</h2>
-            </div>
-            
-            <div class="contact-section">            
-                <p>
+                
+                <p class="section-description">
                     Interested in working together or discussing a project?
                 </p>
+            </div>
             
+            <div class="contact-section">
                 <a
                     href="${safeURL(portfolio.linkedin) || '#'}"
                     target="_blank"
                     rel="noopener noreferrer"
                     class="contact-link"
                 >
-                    Send me a private message on LinkedIn <i class="fa-solid fa-arrow-right"></i>
+                Send me a private message on LinkedIn <i class="fa-solid fa-arrow-right"></i>
                 </a>
             </div>
 
