@@ -578,7 +578,7 @@ function renderSkills() {
 
         <section class="section">
 
-            <div class="eyebrow">03 / TECHNICAL EXPERTISE</div>
+            <div class="eyebrow">05 / TECHNICAL EXPERTISE</div>
 
             <div class="section-header">
 
@@ -671,7 +671,7 @@ function renderProjects() {
 
         <section class="section">
 
-            <div class="eyebrow">04 / SELECTED WORK</div>
+            <div class="eyebrow">06 / SELECTED WORK</div>
 
             <div class="section-header">
 
@@ -1057,7 +1057,7 @@ function renderExperience() {
 
         <section class="section">
 
-            <div class="eyebrow">05 / CAREER HISTORY</div>
+            <div class="eyebrow">07 / CAREER HISTORY</div>
 
             <div class="section-header">
 
