@@ -239,6 +239,10 @@ body {
     margin-bottom: 24px;
 }
 
+.summary-section:last-child .section-header {
+    margin-bottom: 10px;
+}
+
 .education-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
