@@ -80,10 +80,10 @@ const portfolio = {
             icon: "fa-code",
 
             items: [
-                { name: "C++", rating: 4 },
                 { name: "C#", rating: 5 },
-                { name: "Blueprint", rating: 5 },
-                { name: "JavaScript", rating: 3 }
+                { name: "C++", rating: 2 },
+                { name: "Java", rating: 3 },
+                { name: "Blueprint", rating: 4 }
             ]
         },
 
@@ -93,11 +93,11 @@ const portfolio = {
             icon: "fa-gamepad",
 
             items: [
-                "Unity",
-                "Unreal Engine",
-                "Gameplay Programming",
-                "Game Mechanics",
-                "Game Systems"
+                { name: "Unity", rating: 4 },
+                { name: "Unreal Engine", rating: 5 },
+                { name: "Gameplay Programming", rating: 5 },
+                { name: "Game Mechanics", rating: 3 },
+                { name: "Game Systems", rating: 3 }
             ]
         },
 
@@ -107,10 +107,10 @@ const portfolio = {
             icon: "fa-laptop-code",
 
             items: [
-                "Object-Oriented Programming",
-                "Software Architecture",
-                "Debugging",
-                "Problem Solving"
+                { name: "Object-Oriented Programming", rating: 5 },
+                { name: "Software Architecture", rating: 4 },
+                { name: "Debugging", rating: 4 },
+                { name: "Problem Solving", rating: 5 }
             ]
         },
 
@@ -120,10 +120,11 @@ const portfolio = {
             icon: "fa-screwdriver-wrench",
 
             items: [
-                "Git",
-                "GitHub",
-                "Visual Studio",
-                "Visual Studio Code"
+                { name: "Git", rating: 5 },
+                { name: "Perforce", rating: 3 },
+                { name: "Visual Studio", rating: 5 },
+                { name: "Jira", rating: 4 },
+                { name: "Confluence", rating: 4 }
             ]
         }
 
