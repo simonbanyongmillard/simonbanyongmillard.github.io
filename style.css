@@ -243,6 +243,10 @@ body {
     margin-bottom: 10px;
 }
 
+.summary-section:last-child .contact-section {
+    margin-top: 0;
+}
+
 .education-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
