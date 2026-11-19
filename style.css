@@ -642,37 +642,36 @@ body {
 
 
 /* =========================================
-   PROJECT DETAIL BUTTON
+   PROJECT DETAIL AND BACK BUTTONS
 ========================================= */
 
-.project-detail-button {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    width: 100%;
-
-    margin-top: 20px;
-    padding: 12px 14px;
-
-    background: var(--surface-light);
-    border: 1px solid var(--border);
-    border-radius: 6px;
-
+.project-detail-button,
+.back-button {
+    background: none;
+    border: none;
+    padding: 0;
     color: var(--accent);
     font-family: inherit;
-    font-size: 0.85rem;
-
+    font-size: 0.9rem;
+    font-weight: 500;
     cursor: pointer;
-
-    transition: background 0.2s, border-color 0.2s;
+    text-decoration: none;
+    transition: color 0.2s ease;
 }
 
-.project-detail-button:hover {
-    background: #26364b;
-    border-color: var(--accent-dim);
+.project-detail-button:hover,
+.back-button:hover {
+    color: #ffffff;
+    text-decoration: underline;
 }
 
+.project-detail-button::after {
+    content: " →";
+}
+
+.back-button::before {
+    content: "← ";
+}
 
 /* =========================================
    PROJECT DETAIL PAGE
@@ -681,28 +680,6 @@ body {
 .project-detail {
     max-width: 900px;
     margin: 0 auto;
-}
-
-.back-button {
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-
-    background: none;
-    border: none;
-
-    color: var(--muted);
-    font-family: inherit;
-    font-size: 0.9rem;
-
-    padding: 0;
-    margin-bottom: 35px;
-
-    cursor: pointer;
-}
-
-.back-button:hover {
-    color: var(--accent);
 }
 
 .detail-title {
