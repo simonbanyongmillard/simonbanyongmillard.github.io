@@ -80,10 +80,10 @@ const portfolio = {
             icon: "fa-code",
 
             items: [
-                "C++",
-                "C#",
-                "Blueprint",
-                "JavaScript"
+                { name: "C++", rating: 4 },
+                { name: "C#", rating: 5 },
+                { name: "Blueprint", rating: 5 },
+                { name: "JavaScript", rating: 3 }
             ]
         },
 
@@ -496,6 +496,7 @@ function renderSummary() {
 // SKILLS
 // =====================================================
 
+
 function renderSkills() {
 
     return `
@@ -516,7 +517,6 @@ function renderSkills() {
 
             </div>
 
-
             <div class="skill-grid">
 
                 ${portfolio.skills.map(group => `
@@ -524,23 +524,50 @@ function renderSkills() {
                     <article class="skill-category">
 
                         <h3>
-
                             <i class="fa-solid ${escapeHTML(group.icon)}"></i>
-
                             ${escapeHTML(group.category)}
-
                         </h3>
-
 
                         <div class="skill-list">
 
-                            ${group.items.map(skill => `
+                            ${group.items.map(skill => {
 
-                                <span class="skill">
-                                    ${escapeHTML(skill)}
-                                </span>
+                                const rating = Math.max(
+                                    1,
+                                    Math.min(5, Number(skill.rating) || 1)
+                                );
 
-                            `).join("")}
+                                return `
+
+                                    <div class="skill-entry">
+
+                                        <div class="skill-name">
+                                            ${escapeHTML(skill.name)}
+                                        </div>
+
+                                        <div class="skill-rating"
+                                             role="img"
+                                             aria-label="${rating} out of 5">
+
+                                            ${[1, 2, 3, 4, 5].map(level => `
+
+                                                <span class="rating-dot
+                                                    ${level <= rating ? "filled" : ""}">
+                                                </span>
+
+                                            `).join("")}
+
+                                        </div>
+
+                                        <span class="rating-number">
+                                            ${rating}/5
+                                        </span>
+
+                                    </div>
+
+                                `;
+
+                            }).join("")}
 
                         </div>
 
