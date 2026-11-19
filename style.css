@@ -231,6 +231,14 @@ body {
     margin: 0 0 15px;
 }
 
+.summary-section {
+    margin-top: 60px;
+}
+
+.summary-section .section-header {
+    margin-bottom: 24px;
+}
+
 .education-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
