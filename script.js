@@ -28,7 +28,32 @@ const portfolio = {
         "My development experience includes working with Unity and Unreal Engine, using C++, C# and Unreal Engine Blueprints. I also enjoy developing personal projects, exploring new technologies and building gameplay systems."
     ],
 
-
+    /* -----------------------------------------------
+       HOBBIES AND INTERESTS
+    ----------------------------------------------- */
+    
+    hobbies: [
+        {
+            name: "Dungeons & Dragons",
+            description: "Playing tabletop role-playing games and exploring fantasy worlds."
+        },
+        {
+            name: "Video Games",
+            description: "Playing games across different genres and platforms."
+        },
+        {
+            name: "Game Design",
+            description: "Following developments in game design and discussing ideas, mechanics, and player experiences."
+        },
+        {
+            name: "Travel & Hiking",
+            description: "Exploring new places and enjoying the outdoors."
+        },
+        {
+            name: "Family Time",
+            description: "Spending time and playing with my kids."
+        }
+    ],
 
     /* -----------------------------------------------
        EDUCATION
@@ -468,6 +493,7 @@ function renderSummary() {
             </div>
 
 
+
             <div class="contact-section">
                 <h2>Get in Touch</h2>
             
@@ -485,6 +511,18 @@ function renderSummary() {
                 </a>
             </div>
 
+        </section>
+        <section class="summary-section">
+            <h2>Hobbies & Interests</h2>
+        
+            <div class="hobbies-list">
+                ${portfolio.hobbies.map(hobby => `
+                    <div class="hobby-item">
+                        <h3>${escapeHTML(hobby.name)}</h3>
+                        <p>${escapeHTML(hobby.description)}</p>
+                    </div>
+                `).join("")}
+            </div>
         </section>
 
     `;
