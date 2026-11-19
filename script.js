@@ -432,8 +432,7 @@ function renderSummary() {
             <div class="summary-intro">
 
                 <h2>
-                    Game Developer &amp;
-                    <span>Software Programmer</span>
+                    Game Designer &amp; Programmer
                 </h2>
 
                 <div class="summary-text">
