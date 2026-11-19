@@ -505,26 +505,21 @@ body {
    CONTACT
 ========================================= */
 
-.contact-card {
-    margin-top: 35px;
-
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 9px;
-
-    padding: 24px;
+.contact-section {
+    margin-top: 40px;
 }
 
-.contact-card h3 {
-    margin: 0 0 12px;
-}
-
-.contact-card a {
+.contact-link {
+    display: inline-block;
+    margin-top: 10px;
     color: var(--accent);
     text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
 }
 
-.contact-card a:hover {
+.contact-link:hover {
+    color: #ffffff;
     text-decoration: underline;
 }
 
