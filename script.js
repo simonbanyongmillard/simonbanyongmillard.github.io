@@ -7,13 +7,13 @@ const portfolio = {
 
     name: "Simon Banyong Millard",
 
-    profession: "Game Developer | Gameplay Programmer | IT Consultant",
+    profession: "Game Designer and Programmer",
 
     email: "YOUR_EMAIL@example.com",
 
-    github: "https://github.com/YOUR_USERNAME",
+    github: "https://github.com/simonbanyongmillard/simonbanyongmillard.github.io",
 
-    linkedin: "https://www.linkedin.com/in/YOUR_USERNAME/",
+    linkedin: "https://www.linkedin.com/in/simon-millard-24962652/",
 
 
 
@@ -136,7 +136,7 @@ projects: [
     {
         // BASIC INFORMATION
 
-        title: "My RPG Project",
+        title: "Local Multiplayer Games Platform",
 
         type: "Personal Project",
 
@@ -145,7 +145,7 @@ projects: [
         description:
             "A roleplaying game featuring custom gameplay systems, interactive environments and character progression.",
 
-        thumbnail: "assets/projects/rpg-project/thumbnail.jpg",
+        thumbnail: "assets/projects/gamenyte/gamenyte-thumbnail.jpg",
 
 
         // PROJECT DETAILS
