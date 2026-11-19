@@ -492,11 +492,29 @@ function renderSummary() {
 
             </div>
 
+            <div class="section-header">
 
+                <div class="eyebrow">03 / PERSONAL</div>
 
-            <div class="contact-section">
-                <h2>Get in Touch</h2>
+                <h2 class="section-title">Hobbies & Interests</h2>
+            </div>
+        
+            <div class="hobbies-list">
+                ${portfolio.hobbies.map(hobby => `
+                    <div class="hobby-item">
+                        <h3>${escapeHTML(hobby.name)}</h3>
+                        <p>${escapeHTML(hobby.description)}</p>
+                    </div>
+                `).join("")}
+            </div>
+
+            <div class="section-header">
+                <div class="eyebrow">04 / CONTACT</div>
+
+                <h2 class="section-title">Get in Touch</h2>
+            </div>
             
+            <div class="contact-section">            
                 <p>
                     Interested in working together or discussing a project?
                 </p>
@@ -507,22 +525,10 @@ function renderSummary() {
                     rel="noopener noreferrer"
                     class="contact-link"
                 >
-                    Private message on LinkedIn <i class="fa-solid fa-arrow-right"></i>
+                    Send me a private message on LinkedIn <i class="fa-solid fa-arrow-right"></i>
                 </a>
             </div>
 
-        </section>
-        <section class="summary-section">
-            <h2>Hobbies & Interests</h2>
-        
-            <div class="hobbies-list">
-                ${portfolio.hobbies.map(hobby => `
-                    <div class="hobby-item">
-                        <h3>${escapeHTML(hobby.name)}</h3>
-                        <p>${escapeHTML(hobby.description)}</p>
-                    </div>
-                `).join("")}
-            </div>
         </section>
 
     `;
