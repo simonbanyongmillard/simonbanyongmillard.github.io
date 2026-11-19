@@ -19,7 +19,6 @@ const portfolio = {
 
     /* -----------------------------------------------
        SUMMARY
-       Add or remove paragraphs as needed.
     ----------------------------------------------- */
 
     summary: [
@@ -65,11 +64,6 @@ const portfolio = {
 
     /* -----------------------------------------------
        SKILLS
-
-       Each category has:
-       - category: Category heading
-       - icon: Font Awesome icon name
-       - items: List of skills
     ----------------------------------------------- */
 
     skills: [
@@ -134,97 +128,125 @@ const portfolio = {
 
     /* -----------------------------------------------
        PROJECTS
-
-       Add one object for each project.
-
-       Fields:
-       - title: Project name
-       - type: Professional or Personal Project
-       - role: Your role in the project
-       - description: What the project is about
-       - technologies: Technologies used
-       - links: URLs to project resources
-
-       Leave links empty if you don't have a
-       publicly accessible project page.
     ----------------------------------------------- */
 
-    projects: [
+    
+projects: [
 
-        {
-            title: "YOUR PROJECT NAME",
+    {
+        // BASIC INFORMATION
 
-            type: "Personal Project",
+        title: "My RPG Project",
 
-            role: "Game Developer / Programmer",
+        type: "Personal Project",
 
-            description:
-                "Describe your project here. Explain the concept, its main features and what makes it interesting. Highlight the systems and mechanics you developed.",
+        role: "Game Developer / Programmer",
 
-            technologies: [
-                "Unreal Engine",
-                "Blueprint",
-                "C++"
+        description:
+            "A roleplaying game featuring custom gameplay systems, interactive environments and character progression.",
+
+        thumbnail: "assets/projects/rpg-project/thumbnail.jpg",
+
+
+        // PROJECT DETAILS
+
+        details: {
+
+            overview:
+                "Write a detailed description of the project. Explain the game concept, its objectives, intended audience and current development status.",
+
+            contributions: [
+                "Designed and implemented the gameplay architecture.",
+                "Developed player and NPC gameplay systems.",
+                "Created interactive environmental mechanics.",
+                "Implemented custom Blueprint functionality."
             ],
 
-            links: [
-                // { label: "GitHub", url: "https://github.com/..." },
-                // { label: "Video", url: "https://youtube.com/..." }
+
+            // TECHNICAL CHALLENGES
+
+            challenges: [
+
+                {
+                    title: "Challenge: Gameplay Architecture",
+
+                    problem:
+                        "Describe the technical problem you encountered. Explain why the existing approach was insufficient or what made the problem difficult.",
+
+                    solution:
+                        "Explain your solution, the architecture or algorithms you implemented and why you chose this approach."
+                },
+
+                {
+                    title: "Challenge: Character Systems",
+
+                    problem:
+                        "Describe another interesting technical challenge.",
+
+                    solution:
+                        "Explain how you solved it and what you learned."
+                }
+
+            ],
+
+
+            // PROJECT SCREENSHOTS
+
+            gallery: [
+
+                {
+                    src: "assets/projects/rpg-project/screenshot-01.jpg",
+                    caption: "Gameplay environment"
+                },
+
+                {
+                    src: "assets/projects/rpg-project/screenshot-02.jpg",
+                    caption: "Gameplay systems"
+                },
+
+                {
+                    src: "assets/projects/rpg-project/screenshot-03.jpg",
+                    caption: "Technical implementation"
+                }
+
             ]
+
         },
 
 
-        {
-            title: "YOUR PROJECT NAME",
+        // TECHNOLOGIES
 
-            type: "Professional Project",
-
-            role: "Gameplay Programmer",
-
-            description:
-                "Describe your contribution to this professional project. Focus on your responsibilities, technical challenges and the systems you worked on.",
-
-            technologies: [
-                "Unity",
-                "C#"
-            ],
-
-            links: []
-        },
+        technologies: [
+            "Unreal Engine",
+            "Blueprint",
+            "C++"
+        ],
 
 
-        {
-            title: "YOUR PROJECT NAME",
+        // EXTERNAL LINKS
 
-            type: "Personal Project",
+        links: [
 
-            role: "Game Developer",
+            {
+                label: "GitHub",
+                url: "https://github.com/YOUR_USERNAME/YOUR_PROJECT"
+            },
 
-            description:
-                "Describe another personal project, including its purpose, development process and the technologies you used.",
+            {
+                label: "Video",
+                url: "https://www.youtube.com/"
+            }
 
-            technologies: [
-                "Unity",
-                "C#"
-            ],
+        ]
 
-            links: []
-        }
+    }
 
-    ],
+],
 
 
 
     /* -----------------------------------------------
        PROFESSIONAL EXPERIENCE
-
-       Add one object for each job.
-
-       Fields:
-       - date: Employment period
-       - title: Your job title
-       - company: Company name
-       - description: Your responsibilities
     ----------------------------------------------- */
 
     experience: [
@@ -590,6 +612,7 @@ function renderSkills() {
 // PROJECTS
 // =====================================================
 
+
 function renderProjects() {
 
     return `
@@ -615,6 +638,21 @@ function renderProjects() {
 
                     <article class="project-card">
 
+                        ${project.thumbnail ? `
+
+                            <div class="project-thumbnail">
+
+                                <img
+                                    src="${safeImageURL(project.thumbnail)}"
+                                    alt="${escapeHTML(project.title)}"
+                                    loading="lazy"
+                                >
+
+                            </div>
+
+                        ` : ""}
+
+
                         <div class="project-number">
                             PROJECT_${String(index + 1).padStart(2, "0")}
                         </div>
@@ -628,10 +666,8 @@ function renderProjects() {
                         </div>
 
                         <div class="project-role">
-
                             <strong>Role:</strong>
                             ${escapeHTML(project.role)}
-
                         </div>
 
                         <p class="project-description">
@@ -652,32 +688,16 @@ function renderProjects() {
                         </div>
 
 
-                        ${project.links && project.links.length > 0 ? `
+                        <button
+                            class="project-detail-button"
+                            data-project-index="${index}"
+                        >
 
-                            <div class="project-links">
+                            View Case Study
 
-                                ${project.links.map(link => {
+                            <i class="fa-solid fa-arrow-right"></i>
 
-                                    const url = safeURL(link.url);
-
-                                    return url ? `
-
-                                        <a href="${escapeHTML(url)}"
-                                           target="_blank"
-                                           rel="noopener noreferrer">
-
-                                            ${escapeHTML(link.label)}
-                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-
-                                        </a>
-
-                                    ` : "";
-
-                                }).join("")}
-
-                            </div>
-
-                        ` : ""}
+                        </button>
 
                     </article>
 
@@ -691,6 +711,288 @@ function renderProjects() {
 
 }
 
+
+
+/* =====================================================
+   PROJECT DETAIL VIEW
+===================================================== */
+
+
+// Safely resolve project image paths.
+// Supports local assets and HTTPS image URLs.
+
+function safeImageURL(path) {
+
+    if (!path) return "";
+
+    const url = safeURL(path);
+
+    if (url) return escapeHTML(url);
+
+    if (
+        typeof path === "string" &&
+        /^[a-zA-Z0-9_./-]+$/.test(path) &&
+        !path.includes("..") &&
+        !path.startsWith("/")
+    ) {
+        return escapeHTML(path);
+    }
+
+    return "";
+
+}
+
+
+// Generate individual project presentation
+
+function renderProjectDetail(project) {
+
+    const details = project.details || {};
+
+
+    return `
+
+        <section class="section project-detail">
+
+
+            <button class="back-button" id="back-to-projects">
+
+                <i class="fa-solid fa-arrow-left"></i>
+
+                Back to Projects
+
+            </button>
+
+
+            <div class="eyebrow">PROJECT CASE STUDY</div>
+
+
+            <h2 class="detail-title">
+                ${escapeHTML(project.title)}
+            </h2>
+
+
+            <div class="detail-meta">
+
+                <span>${escapeHTML(project.type)}</span>
+
+                <span>${escapeHTML(project.role)}</span>
+
+            </div>
+
+
+            <!-- PROJECT OVERVIEW -->
+
+            <div class="detail-section">
+
+                <h3>Project Overview</h3>
+
+                <p>
+                    ${escapeHTML(details.overview || project.description)}
+                </p>
+
+            </div>
+
+
+            <!-- TECHNOLOGIES -->
+
+            <div class="detail-section">
+
+                <h3>Technologies</h3>
+
+                <div class="project-technologies">
+
+                    ${project.technologies.map(technology => `
+
+                        <span>
+                            ${escapeHTML(technology)}
+                        </span>
+
+                    `).join("")}
+
+                </div>
+
+            </div>
+
+
+            <!-- PERSONAL CONTRIBUTIONS -->
+
+            ${details.contributions?.length ? `
+
+                <div class="detail-section">
+
+                    <h3>My Contributions</h3>
+
+                    <ul class="contribution-list">
+
+                        ${details.contributions.map(item => `
+
+                            <li>${escapeHTML(item)}</li>
+
+                        `).join("")}
+
+                    </ul>
+
+                </div>
+
+            ` : ""}
+
+
+            <!-- TECHNICAL CHALLENGES -->
+
+            ${details.challenges?.length ? `
+
+                <div class="detail-section">
+
+                    <h3>Technical Challenges &amp; Solutions</h3>
+
+                    ${details.challenges.map(challenge => `
+
+                        <article class="challenge-card">
+
+                            <h4>
+                                ${escapeHTML(challenge.title)}
+                            </h4>
+
+                            <div class="challenge-label">
+                                THE CHALLENGE
+                            </div>
+
+                            <p>
+                                ${escapeHTML(challenge.problem)}
+                            </p>
+
+                            <div class="solution-label">
+                                THE SOLUTION
+                            </div>
+
+                            <p>
+                                ${escapeHTML(challenge.solution)}
+                            </p>
+
+                        </article>
+
+                    `).join("")}
+
+                </div>
+
+            ` : ""}
+
+
+            <!-- PROJECT GALLERY -->
+
+            ${details.gallery?.length ? `
+
+                <div class="detail-section">
+
+                    <h3>Project Gallery</h3>
+
+                    <div class="project-gallery">
+
+                        ${details.gallery.map(image => {
+
+                            const src = safeImageURL(image.src);
+
+                            if (!src) return "";
+
+                            return `
+
+                                <figure class="gallery-item">
+
+                                    <a href="${src}" target="_blank"
+                                       rel="noopener noreferrer">
+
+                                        <img
+                                            src="${src}"
+                                            alt="${escapeHTML(image.caption)}"
+                                            loading="lazy"
+                                        >
+
+                                    </a>
+
+                                    <figcaption>
+                                        ${escapeHTML(image.caption)}
+                                    </figcaption>
+
+                                </figure>
+
+                            `;
+
+                        }).join("")}
+
+                    </div>
+
+                </div>
+
+            ` : ""}
+
+
+            <!-- EXTERNAL LINKS -->
+
+            ${project.links?.length ? `
+
+                <div class="detail-section">
+
+                    <h3>Project Links</h3>
+
+                    <div class="project-links">
+
+                        ${project.links.map(link => {
+
+                            const url = safeURL(link.url);
+
+                            return url ? `
+
+                                <a href="${escapeHTML(url)}"
+                                   target="_blank"
+                                   rel="noopener noreferrer">
+
+                                    ${escapeHTML(link.label)}
+
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                                </a>
+
+                            ` : "";
+
+                        }).join("")}
+
+                    </div>
+
+                </div>
+
+            ` : ""}
+
+
+        </section>
+
+    `;
+
+}
+
+
+// Open individual project
+
+function showProjectDetail(index) {
+
+    const project = portfolio.projects[index];
+
+    if (!project) return;
+
+
+    content.innerHTML = renderProjectDetail(project);
+
+
+    // Back navigation
+
+    document.getElementById("back-to-projects")
+        .addEventListener("click", () => {
+
+            showTab("projects");
+
+        });
+
+}
 
 
 // =====================================================
@@ -771,6 +1073,7 @@ const renderers = {
 };
 
 
+
 function showTab(tabName) {
 
     if (!renderers[tabName]) return;
@@ -791,6 +1094,28 @@ function showTab(tabName) {
     // Render selected section
 
     content.innerHTML = renderers[tabName]();
+
+
+    // Add project detail click handlers
+
+    if (tabName === "projects") {
+
+        content.querySelectorAll(".project-detail-button")
+            .forEach(button => {
+
+                button.addEventListener("click", () => {
+
+                    const index = Number(
+                        button.dataset.projectIndex
+                    );
+
+                    showProjectDetail(index);
+
+                });
+
+            });
+
+    }
 
 }
 
