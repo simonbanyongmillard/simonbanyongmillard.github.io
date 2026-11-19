@@ -72,7 +72,7 @@ const portfolio = {
         },
 
         {
-            degree: "BSc.",
+            degree: "BSc. IT",
 
             title: "Software Development",
 
