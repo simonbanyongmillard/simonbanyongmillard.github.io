@@ -660,16 +660,40 @@ function renderSkills() {
 
             <div class="eyebrow">05 / TECHNICAL EXPERTISE</div>
 
-            <div class="section-header">
+            <div class="skills-header-layout">
 
-                <h2 class="section-title">
-                    Skills &amp; Technologies
-                </h2>
-
-                <p class="section-description">
-                    Highlighted skills, including programming languages, game engines and development tools.
-                </p>
-
+                <div class="section-header">
+            
+                    <h2 class="section-title">
+                        Skills &amp; Technologies
+                    </h2>
+            
+                    <p class="section-description">
+                        Highlighted skills, including programming languages,
+                        game engines and development tools.
+                    </p>
+            
+                </div>
+            
+                <div class="skill-ranking-key">
+            
+                    <div class="ranking-item">
+                        <strong>3/3 – Advanced</strong>
+                        <p>Can independently develop complex features and systems.</p>
+                    </div>
+            
+                    <div class="ranking-item">
+                        <strong>2/3 – Intermediate</strong>
+                        <p>Comfortable working independently with the technology and implementing typical functionality.</p>
+                    </div>
+            
+                    <div class="ranking-item">
+                        <strong>1/3 – Basic</strong>
+                        <p>Familiar with the technology and capable of performing fundamental tasks.</p>
+                    </div>
+            
+                </div>
+            
             </div>
 
             <div class="skill-grid">
