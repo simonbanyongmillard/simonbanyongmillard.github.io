@@ -271,38 +271,103 @@ projects: [
     experience: [
 
         {
-            date: "YEAR – PRESENT",
+            date: "2023 – PRESENT",
 
-            title: "Gameplay Programmer",
+            title: "Manager",
 
-            company: "COMPANY NAME",
+            company: "Netcompany (netcompany.com)",
 
             description:
-                "Describe your responsibilities, contributions and achievements. Mention relevant technologies and game development systems."
+                "Project lead on the digital government project Digital Post. Also assisted with transition projects for NBS (Netcompany Banking Services), as the former SDC was acquired by Netcompany and rebranded to NBS."
+        },
+
+        {
+            date: "2023 – 2024",
+
+            title: "CTO",
+
+            company: "Panik Studio (panikstudio.dk)",
+
+            description:
+                "Prototyping, technical infrastructure, coordination and problem solving while working on Panik Stuio's first game "PTSD"."
+        },
+        
+        {
+            date: "2019 – 2023",
+
+            title: "Founder and app developer",
+
+            company: "GameNyte",
+
+            description:
+                "Building a digital, mobile, social game platform. Worked on architecture, app development (game app and game editor), networking code, and more."
+        },
+
+        {
+            date: "2018 – 2021",
+
+            title: "Senior Consultant",
+
+            company: "Netcompany (netcompany.com)",
+
+            description:
+                "Team management and software development on several projects, incl. Falck,  Örsted, Topdanmark / IF, and internal Netcompany systems."
+        },
+        
+        {
+            date: "2016 – 2018",
+
+            title: "Senior Developer",
+
+            company: "Skidos Labs (skidos.com)",
+
+            description:
+                "I led the client-side Unity3D development of the Skidos SDK and Unity3D games, such as Skidos Bike Racing, and Brainy City Rush."
+        },
+
+        {
+            date: "2012 – 2015",
+
+            title: "Developer",
+
+            company: "GameAnalytics (gameanalytics.com)",
+
+            description:
+                "I primarily worked with the design and implementation of GameAnalytics' Unity3D  SDK. I also worked on an Unreal Engine 4 SDK and a standalone C++ SDK."
         },
 
 
         {
-            date: "YEAR – YEAR",
+            date: "2011 – 2018",
 
-            title: "Game Developer",
+            title: "Designer and programmer",
 
-            company: "COMPANY NAME",
+            company: "Frostwolf Studios",
 
             description:
-                "Describe the projects you worked on, your role in the development team and the technical work you performed."
+                "Prototypes, design and implementation for a mobile game and two unreleased PC games."
         },
 
-
         {
-            date: "YEAR – YEAR",
+            date: "2008 – 2009",
 
-            title: "IT Consultant",
+            title: "Technical translator",
 
-            company: "COMPANY NAME",
+            company: "Lund&Bendsen (logb.dk)",
 
             description:
-                "Describe your consulting responsibilities, technical expertise and the solutions you delivered."
+                "Danish to English translation of java and web development educational material."
+        },
+
+        {
+            date: "2000 – 2000",
+
+            title: "Database programmer",
+
+            company: "Danish Technological Institute (dti.dk)",
+
+            description:
+                "Worked mainly with MYSQL databases."
         }
 
     ]
