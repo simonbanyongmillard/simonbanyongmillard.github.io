@@ -21,7 +21,7 @@ const portfolio = {
 
     summary: [
 
-        "I hold both a BSc. in Software Development and an MSc. in Media Technology and Games from the IT University of Copenhagen. I combine a strong technical foundation with experience in professional software and game development.",
+        "I hold a BSc. in Software Development and an MSc. in Media Technology and Games from the IT University of Copenhagen. I combine a strong technical foundation with experience in professional software and game development.",
 
         "My game development experience primarily includes working with Unity3D and Unreal Engine, both as a programmer and designer. I also have experience as both project lead and team lead.",
         
