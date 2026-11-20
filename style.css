@@ -105,6 +105,16 @@ body {
     gap: 15px;
 }
 
+.header spawn {;
+    color: var(--accent);
+
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.72rem;
+    letter-spacing: 1.5px;
+
+    margin-bottom: 12px;
+}
+
 .identity {
     flex: 1;
 }
