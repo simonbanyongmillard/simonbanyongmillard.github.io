@@ -741,9 +741,9 @@ function renderSkills() {
             
             <div class="skill-ranking-key">
 
-                <h3>
-                    Skill Ranking
-                </h3>
+                <div class="ranking-key-title">
+                    Skill Level Guide
+                </div>
             
                 <div class="ranking-item">
             
