@@ -39,11 +39,11 @@ const portfolio = {
         },
         {
             name: "Video Games",
-            description: "Playing games across different genres and platforms. I have a very varied taste, but some of my all time favourite games including RPG and RTS games, such as Fallout, Baldur's Gate, Warcraft, StarCraft and Diablo. I also have a passion for indie games."
+            description: "Playing games across genres and platforms. I have a very varied taste, but some of my all time favourite games including RPG and RTS games, such as Fallout, Baldur's Gate, Warcraft, StarCraft and Diablo. I also have a passion for indie games."
         },
         {
             name: "Game Design",
-            description: "Following developments in game design and discussing ideas, mechanics, and player experiences. Developing my game design skills and knowledge is a passion I have pursued since a young age; both professionally and as a personal hobby."
+            description: "Following developments in game design and discussing ideas, mechanics, and player experiences. Developing my design skills and knowledge is a passion I have pursued since a young age; both professionally and as a personal hobby."
         },
         {
             name: "Travel & Hiking",
