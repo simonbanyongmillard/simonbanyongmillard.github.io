@@ -518,8 +518,9 @@ function renderSummary() {
                 <div class="eyebrow">01 / PROFILE</div>
 
                 <div class="summary-intro">
+                    Hello, I am <h3>Simon Banyong Millard</h3>
 
-                    <h2>Game Designer &amp; Programmer</h2>
+                    <h2>Game Designer and Programmer</h2>
 
                     <div class="summary-text">
 
