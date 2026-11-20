@@ -481,7 +481,6 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 
-    padding: 18px 20px;
     margin-top: 24px;
     margin-bottom: 35px;
 }
