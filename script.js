@@ -284,12 +284,12 @@ projects: [
         {
             date: "2023 – 2024",
 
-            title: "CTO",
+            title: "Developer",
 
             company: "Panik Studio (panikstudio.dk)",
 
             description:
-                "Prototyping, technical infrastructure, coordination and problem solving while working on Panik Stuio's first game \"PTSD\"."
+                "Unreal Engine prototyping, technical infrastructure, coordination and problem solving while working on Panik Stuio's first game \"PTSD\"."
         },
         
         {
@@ -300,7 +300,7 @@ projects: [
             company: "GameNyte",
 
             description:
-                "Building a digital, mobile, social game platform. Worked on architecture, app development (game app and game editor), networking code, and more."
+                "Building a digital, mobile, social game platform. Worked on architecture, Unity3D app development (game app and game editor), networking code, and more."
         },
 
         {
@@ -340,7 +340,7 @@ projects: [
         {
             date: "2011 – 2018",
 
-            title: "Designer and programmer",
+            title: "Founder, designer and programmer",
 
             company: "Frostwolf Studios",
 
