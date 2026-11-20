@@ -35,19 +35,19 @@ const portfolio = {
     hobbies: [
         {
             name: "Dungeons & Dragons",
-            description: "Playing tabletop role-playing games and exploring fantasy worlds. Both as a Dungeon Master and player."
+            description: "Playing tabletop role-playing games and exploring fantasy worlds with friends and colleagues. I have been playing as both a Dungeon Master and a player in various long term campaigns and separate one-shot adventures for many years."
         },
         {
             name: "Video Games",
-            description: "Playing games across different genres and platforms."
+            description: "Playing games across different genres and platforms. I have a very varied taste, but some of my all time favourite games including RPG and RTS games, such as Fallout, Baldur's Gate, Warcraft, StarCraft and Diablo. I also have a passion for indie games."
         },
         {
             name: "Game Design",
-            description: "Following developments in game design and discussing ideas, mechanics, and player experiences."
+            description: "Following developments in game design and discussing ideas, mechanics, and player experiences. Developing my game design skills and knowledge is a passion I have pursued since a young age; both professionally and as a personal hobby."
         },
         {
             name: "Travel & Hiking",
-            description: "Exploring new places and enjoying the outdoors."
+            description: "I love to travel and I love hiking (especially up mountains!). Exploring the wild as well as experiencing different cultures and ways of living has been a great source of inspiration for my work with game design and world building."
         }
     ],
 
