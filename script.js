@@ -740,6 +740,10 @@ function renderSkills() {
             </div>
             
             <div class="skill-ranking-key">
+
+                <h3>
+                    Skill Ranking
+                </h3>
             
                 <div class="ranking-item">
             
