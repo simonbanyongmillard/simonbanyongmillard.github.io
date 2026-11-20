@@ -13,6 +13,7 @@ const portfolio = {
 
     linkedin: "https://www.linkedin.com/in/simon-millard-24962652/",
 
+    portrait: "assets/portrait/profile.jpg",
 
 
     /* -----------------------------------------------
