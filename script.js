@@ -349,6 +349,17 @@ projects: [
         },
 
         {
+            date: "2011 – 2011",
+
+            title: "Lead programmer",
+
+            company: "DADIU – National Academy of Digital Interactive Entertainment (dadiu.dk)",
+
+            description:
+                "Lead a team of programmers working on the game \"A Mother’s Inferno\"."
+        },
+
+        {
             date: "2008 – 2009",
 
             title: "Technical translator",
