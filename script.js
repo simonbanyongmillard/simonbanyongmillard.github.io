@@ -652,7 +652,7 @@ function renderSkills() {
                 </h2>
 
                 <p class="section-description">
-                    Programming languages, game engines and development tools.
+                    Highlighted skills, including programming languages, game engines and development tools.
                 </p>
 
             </div>
@@ -743,7 +743,7 @@ function renderProjects() {
                 <h2 class="section-title">Projects</h2>
 
                 <p class="section-description">
-                    Professional work and personal development projects.
+                    Highlighted professional and personal projects.
                 </p>
 
             </div>
@@ -1131,7 +1131,7 @@ function renderExperience() {
                 </h2>
 
                 <p class="section-description">
-                    Professional positions and career history.
+                    Career history. Timeline of highlighted professional positions.
                 </p>
 
             </div>
