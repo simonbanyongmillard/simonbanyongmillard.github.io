@@ -583,7 +583,7 @@ function renderSummary() {
             <div class="summary-section">
             
                 <div class="section-header">
-                    <div class="eyebrow">02 / CORE STRENGTHS</div>
+                    <div class="eyebrow">02 / KEY QUALITIES</div>
                     <h2 class="section-title">Strengths</h2>
                 </div>
             
