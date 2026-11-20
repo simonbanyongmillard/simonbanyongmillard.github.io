@@ -98,6 +98,13 @@ body {
     transform: translateY(-2px);
 }
 
+.profile-portrait {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+}
 
 /* =========================================
    NAVIGATION
