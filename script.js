@@ -21,12 +21,11 @@ const portfolio = {
     ----------------------------------------------- */
 
     summary: [
+        "I combine a strong technical foundation with extensive experience in professional software and game development. I hold a BSc. in Software Development and an MSc. in Media Technology and Games, both from the IT University of Copenhagen.",
 
-        "I combine a strong technical foundation with many years of experience in professional software and game development. I hold both a BSc. in Software Development and an MSc. in Media Technology and Games from the IT University of Copenhagen.",
-
-        "My game development experience includes working with Unity3D and Unreal Engine, both as a programmer and designer. I also have experience as both project lead and team lead from projects ranging in size and scope.",
+        "My game development experience combines programming and game design, with extensive hands-on experience in both Unity and Unreal Engine. I have also taken on leadership responsibilities on projects and teams of varying size.",
         
-        "I have experience with many common software and game related tasks, including tools development, gameplay design and programming, as well as implementation of a wide range of systems, including networking code, user interfances, pathfinding, dialog systems, procedural generation, animation, and much more."
+        "My professional experience covers a broad range of game development disciplines, including tools development, gameplay design and programming, and implementation of complex systems. These include user interfaces, pathfinding, networking code, dialogue systems, procedural generation, animation and much more."
     ],
 
     /* -----------------------------------------------
