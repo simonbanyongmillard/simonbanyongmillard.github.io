@@ -96,10 +96,10 @@ const portfolio = {
             icon: "fa-code",
 
             items: [
-                { name: "C#", rating: 5 },
-                { name: "C++", rating: 2 },
-                { name: "Java", rating: 3 },
-                { name: "Blueprint", rating: 4 }
+                { name: "C#", rating: 3 },
+                { name: "C++", rating: 1 },
+                { name: "Java", rating: 2 },
+                { name: "Blueprint", rating: 2 }
             ]
         },
 
@@ -109,9 +109,9 @@ const portfolio = {
             icon: "fa-gamepad",
 
             items: [
-                { name: "Unity", rating: 4 },
-                { name: "Unreal Engine", rating: 5 },
-                { name: "Gameplay Programming", rating: 5 },
+                { name: "Unity", rating: 3 },
+                { name: "Unreal Engine", rating: 2 },
+                { name: "Gameplay Programming", rating: 3 },
                 { name: "Game Mechanics", rating: 3 },
                 { name: "Game Systems", rating: 3 }
             ]
@@ -123,10 +123,10 @@ const portfolio = {
             icon: "fa-laptop-code",
 
             items: [
-                { name: "Object-Oriented Programming", rating: 5 },
-                { name: "Software Architecture", rating: 4 },
-                { name: "Debugging", rating: 4 },
-                { name: "Problem Solving", rating: 5 }
+                { name: "Object-Oriented Programming", rating: 3 },
+                { name: "Software Architecture", rating: 2 },
+                { name: "Debugging", rating: 2 },
+                { name: "Problem Solving", rating: 3 }
             ]
         },
 
@@ -136,11 +136,11 @@ const portfolio = {
             icon: "fa-screwdriver-wrench",
 
             items: [
-                { name: "Git", rating: 5 },
-                { name: "Perforce", rating: 3 },
-                { name: "Visual Studio", rating: 5 },
-                { name: "Jira", rating: 4 },
-                { name: "Confluence", rating: 4 }
+                { name: "Git", rating: 3 },
+                { name: "Perforce", rating: 2 },
+                { name: "Visual Studio", rating: 3 },
+                { name: "Jira", rating: 3 },
+                { name: "Confluence", rating: 3 }
             ]
         }
 
@@ -742,7 +742,7 @@ function renderSkills() {
 
                                 const rating = Math.max(
                                     1,
-                                    Math.min(5, Number(skill.rating) || 1)
+                                    Math.min(3, Number(skill.rating) || 1)
                                 );
 
                                 return `
@@ -755,9 +755,9 @@ function renderSkills() {
 
                                         <div class="skill-rating"
                                              role="img"
-                                             aria-label="${rating} out of 5">
+                                             aria-label="${rating} out of 3">
 
-                                            ${[1, 2, 3, 4, 5].map(level => `
+                                            ${[1, 2, 3].map(level => `
 
                                                 <span class="rating-dot
                                                     ${level <= rating ? "filled" : ""}">
@@ -768,7 +768,7 @@ function renderSkills() {
                                         </div>
 
                                         <span class="rating-number">
-                                            ${rating}/5
+                                            ${rating}/3
                                         </span>
 
                                     </div>
