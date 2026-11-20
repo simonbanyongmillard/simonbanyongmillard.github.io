@@ -224,7 +224,7 @@ body {
 
 .summary-text {
     color: var(--muted);
-    max-width: 800px;
+    max-width: 900px;
 }
 
 .summary-text p {
