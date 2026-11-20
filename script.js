@@ -7,7 +7,7 @@ const portfolio = {
 
     name: "Simon Banyong Millard",
 
-    profession: "Game Designer and Programmer",
+    profession: "Game Designer, Programmer and IT Consultant",
 
     github: "https://github.com/simonbanyongmillard/simonbanyongmillard.github.io",
 
