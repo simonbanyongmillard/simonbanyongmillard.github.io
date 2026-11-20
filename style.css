@@ -98,12 +98,24 @@ body {
     transform: translateY(-2px);
 }
 
-.profile-portrait {
-    width: 180px;
-    height: 180px;
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.identity {
+    flex: 1;
+}
+
+.header-portrait {
+    width: 100;
+    height: 100px;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 6px;
     border: 1px solid var(--border);
+    flex-shrink: 0;
 }
 
 /* =========================================
