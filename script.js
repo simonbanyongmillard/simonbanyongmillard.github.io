@@ -676,18 +676,51 @@ function renderSkills() {
             <div class="skill-ranking-key">
             
                 <div class="ranking-item">
-                    <strong>3/3 – Advanced</strong>
-                    <p>Can independently develop complex features and systems.</p>
-                </div>
             
-                <div class="ranking-item">
-                    <strong>2/3 – Intermediate</strong>
-                    <p>Comfortable working independently with the technology and implementing typical functionality.</p>
-                </div>
+                    <div class="ranking-heading">
+                        <div class="skill-rating">
+                            <span class="rating-dot filled"></span>
+                            <span class="rating-dot"></span>
+                            <span class="rating-dot"></span>
+                        </div>
             
-                <div class="ranking-item">
-                    <strong>1/3 – Basic</strong>
+                        <strong>1/3 – Basic</strong>
+                    </div>
+            
                     <p>Familiar with the technology and capable of performing fundamental tasks.</p>
+            
+                </div>            
+            
+                <div class="ranking-item">
+            
+                    <div class="ranking-heading">
+                        <div class="skill-rating">
+                            <span class="rating-dot filled"></span>
+                            <span class="rating-dot filled"></span>
+                            <span class="rating-dot"></span>
+                        </div>
+            
+                        <strong>2/3 – Intermediate</strong>
+                    </div>
+            
+                    <p>Comfortable working independently with the technology and implementing typical functionality.</p>
+            
+                </div>
+
+                <div class="ranking-item">
+            
+                    <div class="ranking-heading">
+                        <div class="skill-rating">
+                            <span class="rating-dot filled"></span>
+                            <span class="rating-dot filled"></span>
+                            <span class="rating-dot filled"></span>
+                        </div>
+            
+                        <strong>3/3 – Advanced</strong>
+                    </div>
+            
+                    <p>Can independently develop complex features and systems.</p>
+            
                 </div>
             
             </div>
