@@ -26,9 +26,9 @@ const portfolio = {
 
         "My game development experience includes working with Unity3D and Unreal Engine, both as a programmer and designer. I also have experience as both project lead and team lead from projects ranging in size and scope.",
         
-        "I have experience with a vast range of common software and game related tasks, such as tools development, gameplay design and programming, as well as implementation of various systems including networking code, user interfances, procedural generation, pathfinding, dialog systems, animation, and much more."
+        "I have experience with a vast range of common software and game related tasks, such as tools development, gameplay design and programming, as well as implementation of various systems including networking code, user interfances, procedural generation, pathfinding, dialog systems, animation, and much more.",
 
-        "My strengths include extensive experience working independently and under pressure, taking responsibility for on-time deliveries of high quality, creative problem solving, and strong collaboration and teamwork skills.
+        "My strengths include extensive experience working independently and under pressure, taking responsibility for on-time deliveries of high quality, creative problem solving, and strong collaboration and teamwork skills."
     ],
 
     /* -----------------------------------------------
