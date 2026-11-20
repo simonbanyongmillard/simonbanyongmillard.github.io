@@ -554,7 +554,7 @@ function renderSummary() {
 
                     <div class="summary-navigation">
 
-                        <span>Explore my</span>
+                        Explore my
                     
                         <button class="summary-nav-link" data-tab="skills">
                             Skills
@@ -1234,6 +1234,10 @@ function showProjectDetail(index) {
 
     content.innerHTML = renderProjectDetail(project);
 
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
 
     // Back navigation
 
@@ -1359,9 +1363,10 @@ function showTab(tabName) {
 
     content.innerHTML = renderers[tabName]();
 
-    if (tabName === "summary") {
-        setupSummaryNavigation();
-    }
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
 
     // Add project detail click handlers
 
@@ -1382,6 +1387,10 @@ function showTab(tabName) {
 
             });
 
+    }
+    
+    if (tabName === "summary") {
+        setupSummaryNavigation();
     }
 
 }
