@@ -289,7 +289,7 @@ projects: [
             company: "Panik Studio (panikstudio.dk)",
 
             description:
-                "Prototyping, technical infrastructure, coordination and problem solving while working on Panik Stuio's first game "PTSD"."
+                "Prototyping, technical infrastructure, coordination and problem solving while working on Panik Stuio's first game \"PTSD\"."
         },
         
         {
