@@ -358,7 +358,7 @@ projects: [
             company: "DADIU – National Academy of Digital Interactive Entertainment (dadiu.dk)",
 
             description:
-                "Lead a team of programmers working on the game \"A Mother’s Inferno\"."
+                "I led a team of programmers working on the game \"A Mother’s Inferno\"."
         },
 
         {
