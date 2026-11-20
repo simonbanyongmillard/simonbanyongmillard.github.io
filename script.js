@@ -552,6 +552,28 @@ function renderSummary() {
 
                     </div>
 
+                    <div class="summary-navigation">
+
+                        <span>Explore my</span>
+                    
+                        <button class="summary-nav-link" data-tab="skills">
+                            Skills
+                        </button>
+                    
+                        <span>·</span>
+                    
+                        <button class="summary-nav-link" data-tab="projects">
+                            Projects
+                        </button>
+                    
+                        <span>·</span>
+                    
+                        <button class="summary-nav-link" data-tab="experience">
+                            Experience
+                        </button>
+                    
+                    </div>
+
                 </div>
 
             </div>
@@ -1302,7 +1324,19 @@ const renderers = {
 
 };
 
+function setupSummaryNavigation() {
 
+    document.querySelectorAll(".summary-nav-link").forEach(button => {
+
+        button.addEventListener("click", () => {
+
+            showTab(button.dataset.tab);
+
+        });
+
+    });
+
+}
 
 function showTab(tabName) {
 
@@ -1325,6 +1359,9 @@ function showTab(tabName) {
 
     content.innerHTML = renderers[tabName]();
 
+    if (tabName === "summary") {
+        setupSummaryNavigation();
+    }
 
     // Add project detail click handlers
 
