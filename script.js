@@ -1146,7 +1146,7 @@ function renderExperience() {
                 </h2>
 
                 <p class="section-description">
-                    Career history - timeline of highlighted professional positions and achievements.
+                    Timeline of highlighted professional positions and achievements.
                 </p>
 
             </div>
