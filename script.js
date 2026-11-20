@@ -560,13 +560,13 @@ function renderSummary() {
                             Skills
                         </button>
                     
-                        <span>·</span>
+                        ·
                     
                         <button class="summary-nav-link" data-tab="projects">
                             Projects
                         </button>
                     
-                        <span>·</span>
+                        ·
                     
                         <button class="summary-nav-link" data-tab="experience">
                             Experience
