@@ -231,6 +231,10 @@ body {
     margin: 0 0 15px;
 }
 
+.summary-intro span {
+    color: var(--accent);
+}
+
 .summary-section {
     margin-top: 60px;
 }
