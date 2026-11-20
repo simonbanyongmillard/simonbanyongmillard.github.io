@@ -21,8 +21,6 @@ const portfolio = {
 
     summary: [
 
-        "I am a Game Developer, Gameplay Programmer and IT Consultant with an academic background in software development, media technology and games.",
-
         "I hold both a BSc. in Software Development and an MSc. in Media Technology and Games from the IT University of Copenhagen. I combine a strong technical foundation with experience in professional software and game development.",
 
         "My game development experience primarily includes working with Unity3D and Unreal Engine, both as a programmer and designer. I also have experience as both project lead and team lead.",
@@ -520,7 +518,7 @@ function renderSummary() {
                 <div class="summary-intro">
                     Hello, I am <span>Simon Banyong Millard</span>
 
-                    <h2>Game Designer and Programmer</h2>
+                    <h2>Game Designer, Programmer and IT Consultant</h2>
 
                     <div class="summary-text">
 
