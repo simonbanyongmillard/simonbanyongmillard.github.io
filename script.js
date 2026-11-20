@@ -37,20 +37,20 @@ const portfolio = {
     
     strengths: [
         {
-            title: "Problem Solving",
-            description: "Analytical approach to complex technical challenges and finding practical solutions."
+            title: "Independent & Resilient",
+            description: "Extensive experience working independently and taking ownership under pressure to ensure delivery."
         },
         {
-            title: "Technical Versatility",
-            description: "Experience across programming, game engines, tools and software development."
+            title: "Reliable & Quality Orientated",
+            description: "Committed to delivering high-quality work on time, with a strong sense of responsibility and attention to detail."
         },
         {
-            title: "Creative Thinking",
-            description: "Combining technical implementation with game design and creative ideas."
+            title: "Creative Problem Solving",
+            description: "Enjoy tackling complex challenges and finding creative, practical solutions to technical and design problems."
         },
         {
-            title: "Independent Work",
-            description: "Taking ownership of tasks and driving solutions from concept to implementation."
+            title: "Teamwork & Collaboration",
+            description: "Strong communication and collaboration skills, and experience working across disciplines and contributing to shared goals."
         }
     ],
     
