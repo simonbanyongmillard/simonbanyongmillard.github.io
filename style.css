@@ -407,11 +407,16 @@ body {
     margin-bottom: 35px;
 }
 
-.ranking-item strong {
-    display: block;
+.ranking-heading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.ranking-heading strong {
     color: var(--accent);
     font-size: 0.85rem;
-    margin-bottom: 6px;
 }
 
 .ranking-item p {
@@ -419,6 +424,26 @@ body {
     font-size: 0.8rem;
     line-height: 1.5;
     margin: 0;
+}
+
+/* Reuse the same dot styling as the skill ratings */
+
+.skill-rating {
+    display: flex;
+    gap: 5px;
+}
+
+.rating-dot {
+    width: 9px;
+    height: 9px;
+    background: #303b4b;
+    border-radius: 2px;
+    flex-shrink: 0;
+}
+
+.rating-dot.filled {
+    background: var(--accent);
+    box-shadow: 0 0 5px rgba(99, 168, 255, 0.2);
 }
 
 @media (max-width: 700px) {
