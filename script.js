@@ -28,7 +28,7 @@ const portfolio = {
         
         "I have experience with a vast range of common software and game related tasks, such as tools development, gameplay design and programming, as well as implementation of various systems including networking code, user interfances, procedural generation, pathfinding, dialog systems, animation, and much more.",
 
-        "My strengths include extensive experience working independently and under pressure, taking responsibility for on-time deliveries of high quality, creative problem solving, and strong collaboration and teamwork skills."
+        "My strengths include extensive experience working independently and under pressure, taking responsibility for on-time deliveries of high quality, creative problem solving, strong teamwork and cross-discipline communication and collaboration skills."
     ],
 
     /* -----------------------------------------------
