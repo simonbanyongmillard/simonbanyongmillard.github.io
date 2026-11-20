@@ -32,6 +32,29 @@ const portfolio = {
     ],
 
     /* -----------------------------------------------
+       STRENGTHS
+    ----------------------------------------------- */
+    
+    strengths: [
+        {
+            title: "Problem Solving",
+            description: "Analytical approach to complex technical challenges and finding practical solutions."
+        },
+        {
+            title: "Technical Versatility",
+            description: "Experience across programming, game engines, tools and software development."
+        },
+        {
+            title: "Creative Thinking",
+            description: "Combining technical implementation with game design and creative ideas."
+        },
+        {
+            title: "Independent Work",
+            description: "Taking ownership of tasks and driving solutions from concept to implementation."
+        }
+    ],
+    
+    /* -----------------------------------------------
        HOBBIES AND INTERESTS
     ----------------------------------------------- */
     
@@ -535,6 +558,30 @@ function renderSummary() {
 
             </div>
 
+            <!-- STRENGTHS -->
+
+            <div class="summary-section">
+            
+                <div class="section-header">
+                    <div class="eyebrow">02 / CORE STRENGTHS</div>
+                    <h2 class="section-title">My Strengths</h2>
+                </div>
+            
+                <div class="strengths-grid">
+            
+                    ${portfolio.strengths.map(strength => `
+                        <article class="strength-card">
+            
+                            <h3>${escapeHTML(strength.title)}</h3>
+            
+                            <p>${escapeHTML(strength.description)}</p>
+            
+                        </article>
+                    `).join("")}
+            
+                </div>
+            
+            </div>
 
             <!-- EDUCATION -->
 
@@ -542,7 +589,7 @@ function renderSummary() {
 
                 <div class="section-header">
 
-                    <div class="eyebrow">02 / ACADEMIC BACKGROUND</div>
+                    <div class="eyebrow">03 / ACADEMIC BACKGROUND</div>
 
                     <h2 class="section-title">Education</h2>
 
@@ -581,7 +628,7 @@ function renderSummary() {
 
                 <div class="section-header">
 
-                    <div class="eyebrow">03 / PERSONAL</div>
+                    <div class="eyebrow">04 / PERSONAL</div>
 
                     <h2 class="section-title">Hobbies &amp; Interests</h2>
 
@@ -613,7 +660,7 @@ function renderSummary() {
 
                 <div class="section-header">
 
-                    <div class="eyebrow">04 / CONTACT</div>
+                    <div class="eyebrow">05 / CONTACT</div>
 
                     <h2 class="section-title">Get in Touch</h2>
 
@@ -658,7 +705,7 @@ function renderSkills() {
 
         <section class="section">
 
-            <div class="eyebrow">05 / TECHNICAL EXPERTISE</div>
+            <div class="eyebrow">06 / TECHNICAL EXPERTISE</div>
 
             <div class="section-header">
             
@@ -804,7 +851,7 @@ function renderProjects() {
 
         <section class="section">
 
-            <div class="eyebrow">06 / SELECTED WORK</div>
+            <div class="eyebrow">07 / SELECTED WORK</div>
 
             <div class="section-header">
 
@@ -1190,7 +1237,7 @@ function renderExperience() {
 
         <section class="section">
 
-            <div class="eyebrow">07 / CAREER HISTORY</div>
+            <div class="eyebrow">08 / CAREER HISTORY</div>
 
             <div class="section-header">
 
