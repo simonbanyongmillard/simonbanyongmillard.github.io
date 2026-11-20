@@ -105,7 +105,7 @@ body {
     gap: 15px;
 }
 
-.identity span {;
+.identity span {
     color: var(--accent);
 
     font-family: 'JetBrains Mono', monospace;
@@ -140,13 +140,18 @@ body {
     }
 
    .identity h1 {
-       font-size: clamp(1.2rem, 3vw, 2rem);
-       font-weight: 500;
+       font-size: clamp(1.4rem, 3vw, 2.2rem);
+       font-weight: 550;
    }
    
    .identity p {
        margin: 2px 0 0;
        font-size: 0.6rem;
+   }
+
+   .identity span {
+       font-size: 0.62rem;
+       letter-spacing: 1.2px;
    }
 }
 
