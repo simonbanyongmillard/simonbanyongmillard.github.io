@@ -789,7 +789,7 @@ function renderSkills() {
                         <strong>3/3 – Advanced</strong>
                     </div>
             
-                    <p>Independently develops complex solutions, features, systems with the technology or discipline. Can take a leading role, laying out standards, processes, goals.</p>
+                    <p>Independently develops complex solutions, features and systems. Capable of taking a leading role, laying out standards, processes and goals.</p>
             
                 </div>
             
