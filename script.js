@@ -757,7 +757,7 @@ function renderSkills() {
                         <strong>1/3 – Basic</strong>
                     </div>
             
-                    <p>Familiar with the technology or discipline and capable of performing fundamental tasks. Can independently research how to progress and solve problems.</p>
+                    <p>Familiar with the technology or discipline and performs fundamental tasks. Can independently research how to progress and solve problems.</p>
             
                 </div>            
             
@@ -789,7 +789,7 @@ function renderSkills() {
                         <strong>3/3 – Advanced</strong>
                     </div>
             
-                    <p>Independently develops complex solutions, features and systems with the technology or discipline. Can take a lead role, laying out standards, processes, goals.</p>
+                    <p>Independently develops complex solutions, features, systems with the technology or discipline. Can take a lead role, laying out standards, processes, goals.</p>
             
                 </div>
             
