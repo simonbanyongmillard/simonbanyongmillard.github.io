@@ -757,7 +757,7 @@ function renderSkills() {
                         <strong>1/3 – Basic</strong>
                     </div>
             
-                    <p>Familiar with the technology and capable of performing fundamental tasks.</p>
+                    <p>Familiar with the technology or discipline and capable of performing fundamental tasks.</p>
             
                 </div>            
             
@@ -773,7 +773,7 @@ function renderSkills() {
                         <strong>2/3 – Intermediate</strong>
                     </div>
             
-                    <p>Comfortable working independently with the technology and implementing typical functionality.</p>
+                    <p>Comfortable working independently with the technology or discipline. E.g. implementing typical functionality.</p>
             
                 </div>
 
@@ -789,7 +789,7 @@ function renderSkills() {
                         <strong>3/3 – Advanced</strong>
                     </div>
             
-                    <p>Can independently develop complex features and systems.</p>
+                    <p>Can independently develop complex solutions, features and systems with the technology or discipline.</p>
             
                 </div>
             
