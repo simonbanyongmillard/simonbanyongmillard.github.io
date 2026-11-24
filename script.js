@@ -393,20 +393,21 @@ projects: [
         ]
 
     }
+	
 	,
 	{
         // BASIC INFORMATION
 
-        title: "First-person TTRPG",
+        title: "PTSD (FPS Horror Game)",
 
-        type: "Personal Project",
+        type: "Panik Studio",
 
-        role: "Design, Story, Programming",
+        role: "Senior programmer",
 
         description:
-            "This game attempts to recreate the feeling of playing an immersive Tabletop Role-playing Game (TTRPG). The player takes the role of a kid playing a TTRPG, complete with miniatures on a board, escape room style puzzles and a compelling story.",
+            "Prototypes for a first-person horror game developed in Unreal Engine.",
 
-        thumbnail: "assets/projects/ami/amothersinferno.jpg",
+        thumbnail: "assets/projects/ptsd/ptsd-thumbnail.PNG",
 
 
         // PROJECT DETAILS
@@ -483,8 +484,123 @@ projects: [
         // TECHNOLOGIES
 
         technologies: [
-            "Unity",
-            "C#"
+            "Unreal Engine",
+			"Blueprint",
+            "C++",
+			"Perforce"
+        ],
+
+
+        // EXTERNAL LINKS
+
+        links: [
+
+            {
+                label: "Facebook home of A Mother's Inferno",
+                url: "https://www.facebook.com/mothersinferno/"
+            },
+
+            {
+                label: "Markiplier play's A Mother's Inferno",
+                url: "https://www.youtube.com/watch?v=NOC3LcDEYXI"
+            }
+
+        ]
+
+    }
+	,
+	{
+        // BASIC INFORMATION
+
+        title: "First-person TTRPG",
+
+        type: "Personal Project",
+
+        role: "Design, Story, Programming",
+
+        description:
+            "This game attempts to recreate the feeling of playing an immersive Tabletop Role-playing Game (TTRPG). The player takes the role of a kid playing a TTRPG, complete with miniatures on a board, escape room style puzzles and a compelling story.",
+
+        thumbnail: "assets/projects/ttrpgfps/ttrpg-fps-thumbnail.png",
+
+
+        // PROJECT DETAILS
+
+        details: {
+
+            overview:
+                "Write a detailed description of the project. Explain the game concept, its objectives, intended audience and current development status.",
+
+            contributions: [
+                "Designed and implemented the gameplay architecture.",
+                "Developed player and NPC gameplay systems.",
+                "Created interactive environmental mechanics.",
+                "Implemented custom Blueprint functionality."
+            ],
+
+
+            // TECHNICAL CHALLENGES
+
+            challenges: [
+
+                {
+                    title: "Challenge: Gameplay Architecture",
+
+                    problem:
+                        "Describe the technical problem you encountered. Explain why the existing approach was insufficient or what made the problem difficult.",
+
+                    solution:
+                        "Explain your solution, the architecture or algorithms you implemented and why you chose this approach."
+                },
+
+                {
+                    title: "Challenge: Character Systems",
+
+                    problem:
+                        "Describe another interesting technical challenge.",
+
+                    solution:
+                        "Explain how you solved it and what you learned."
+                }
+
+            ],
+
+
+            // PROJECT SCREENSHOTS
+
+            gallery: [
+
+                {
+                    src: "assets/projects/ami/ami-bull.jpg",
+                    caption: "Bull"
+                },
+
+                {
+                    src: "assets/projects/ami/ami-mother-glow.jpg",
+                    caption: "Mother glowing"
+                },
+				
+                {
+                    src: "assets/projects/ami/ami-mother-son.jpg",
+                    caption: "Mother and son"
+                },
+
+                {
+                    src: "assets/projects/ami/ami-train.jpg",
+                    caption: "Train interior"
+                }
+
+            ]
+
+        },
+
+
+        // TECHNOLOGIES
+
+        technologies: [
+            "Unreal Engine",
+			"Blueprint",
+            "C++"
         ],
 
 
