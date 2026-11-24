@@ -496,6 +496,114 @@ projects: [
 
         ]
 
+    },
+	{
+        // BASIC INFORMATION
+
+        title: "Skidos SDK and Educational Games",
+
+        type: "Skidos Labs",
+
+        role: "Senior Programmer",
+
+        description:
+            "Implementing the Skidos Unity3D SDK for educational games. Also implementing and publishing several Unity3D educational games, such as Hop Star: Math Edition, and Brainy City.",
+
+        thumbnail: "assets/projects/skidos/skidos-topics.png",
+
+
+        // PROJECT DETAILS
+
+        details: {
+
+            overview:
+                "Write a detailed description of the project. Explain the game concept, its objectives, intended audience and current development status.",
+
+            contributions: [
+                "Designed and implemented the gameplay architecture.",
+                "Developed player and NPC gameplay systems.",
+                "Created interactive environmental mechanics.",
+                "Implemented custom Blueprint functionality."
+            ],
+
+
+            // TECHNICAL CHALLENGES
+
+            challenges: [
+
+                {
+                    title: "Challenge: Gameplay Architecture",
+
+                    problem:
+                        "Describe the technical problem you encountered. Explain why the existing approach was insufficient or what made the problem difficult.",
+
+                    solution:
+                        "Explain your solution, the architecture or algorithms you implemented and why you chose this approach."
+                },
+
+                {
+                    title: "Challenge: Character Systems",
+
+                    problem:
+                        "Describe another interesting technical challenge.",
+
+                    solution:
+                        "Explain how you solved it and what you learned."
+                }
+
+            ],
+
+
+            // PROJECT SCREENSHOTS
+
+            gallery: [
+
+                {
+                    src: "assets/projects/skidos/smashwizard.jpg",
+                    caption: "Smash Wizards implemented the Skidos SDK"
+                },
+
+                {
+                    src: "assets/projects/skidos/milk-hunt.png",
+                    caption: "Answer educational questions to progress"
+                },
+
+                {
+                    src: "assets/projects/skidos/brainy-city.jpg",
+                    caption: "Brainy City implemented the Skidos SDK"
+                }
+
+            ]
+
+        },
+
+
+        // TECHNOLOGIES
+
+        technologies: [
+            "Unity3D",
+            "C#",
+            "Unreal Engine",
+			"C++"
+        ],
+
+
+        // EXTERNAL LINKS
+
+        links: [
+
+            {
+                label: "GitHub",
+                url: "https://github.com/YOUR_USERNAME/YOUR_PROJECT"
+            },
+
+            {
+                label: "Video",
+                url: "https://www.youtube.com/"
+            }
+
+        ]
+
     }
 
 ],
