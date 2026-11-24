@@ -582,9 +582,97 @@ projects: [
 
         technologies: [
             "Unity3D",
-            "C#",
-            "Unreal Engine",
-			"C++"
+            "C#"
+        ],
+
+
+        // EXTERNAL LINKS
+
+        links: [
+
+            {
+                label: "GitHub",
+                url: "https://github.com/YOUR_USERNAME/YOUR_PROJECT"
+            },
+
+            {
+                label: "Video",
+                url: "https://www.youtube.com/"
+            }
+
+        ]
+
+    },
+	{
+        // BASIC INFORMATION
+
+        title: "Document Generation Solution",
+
+        type: "Netcompany",
+
+        role: "Project Lead",
+
+        description:
+            "Implementing a robust document generation solution for the customer, based on OmniDocs. Project lead from analysis through design, implementation, QA and release.",
+
+        thumbnail: "assets/projects/docgen/omnidocs.png",
+
+
+        // PROJECT DETAILS
+
+        details: {
+
+            overview:
+                "Write a detailed description of the project. Explain the game concept, its objectives, intended audience and current development status.",
+
+            contributions: [
+                "Designed and implemented the gameplay architecture.",
+                "Developed player and NPC gameplay systems.",
+                "Created interactive environmental mechanics.",
+                "Implemented custom Blueprint functionality."
+            ],
+
+
+            // TECHNICAL CHALLENGES
+
+            challenges: [
+
+                {
+                    title: "Challenge: Gameplay Architecture",
+
+                    problem:
+                        "Describe the technical problem you encountered. Explain why the existing approach was insufficient or what made the problem difficult.",
+
+                    solution:
+                        "Explain your solution, the architecture or algorithms you implemented and why you chose this approach."
+                },
+
+                {
+                    title: "Challenge: Character Systems",
+
+                    problem:
+                        "Describe another interesting technical challenge.",
+
+                    solution:
+                        "Explain how you solved it and what you learned."
+                }
+
+            ],
+
+
+            // PROJECT SCREENSHOTS
+
+            gallery: [
+            ]
+
+        },
+
+
+        // TECHNOLOGIES
+
+        technologies: [
+            "Azure DevOps",
+            "Java"
         ],
 
 
