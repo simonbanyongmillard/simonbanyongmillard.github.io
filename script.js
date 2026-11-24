@@ -406,7 +406,7 @@ projects: [
         description:
             "GameAnalytics was the first analytics platform specifically built for the gaming industry. I worked on several of the Game Engine SDKs, including Unity3D and Unreal Engine.",
 
-        thumbnail: "assets/projects/gameanalytics/gameanalytics-logo.png",
+        thumbnail: "assets/projects/gameanalytics/ga-logo.png",
 
 
         // PROJECT DETAILS
@@ -456,18 +456,13 @@ projects: [
             gallery: [
 
                 {
-                    src: "assets/projects/rpg-project/screenshot-01.jpg",
-                    caption: "Gameplay environment"
+                    src: "assets/projects/gameanalytics/ga-unity.png",
+                    caption: "Unity3D GameAnalytics SDK setup"
                 },
 
                 {
-                    src: "assets/projects/rpg-project/screenshot-02.jpg",
-                    caption: "Gameplay systems"
-                },
-
-                {
-                    src: "assets/projects/rpg-project/screenshot-03.jpg",
-                    caption: "Technical implementation"
+                    src: "assets/projects/gameanalytics/ga-dashboard.png",
+                    caption: "GameAnalytics Dashboard"
                 }
 
             ]
