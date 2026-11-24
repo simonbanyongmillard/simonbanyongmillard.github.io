@@ -180,12 +180,12 @@ projects: [
 
         title: "Local Multiplayer Games Platform",
 
-        type: "Personal Project",
+        type: "GameNyte APS",
 
-        role: "Game Developer / Programmer",
+        role: "Founder / Programmer",
 
         description:
-            "A roleplaying game featuring custom gameplay systems, interactive environments and character progression.",
+            "Games platform for table-top-style local multiplayer games. Boardgames made digital, with a focus on social interaction.",
 
         thumbnail: "assets/projects/gamenyte/gamenyte-thumbnail.jpg",
 
@@ -277,6 +277,118 @@ projects: [
             {
                 label: "Video",
                 url: "https://www.youtube.com/"
+            }
+
+        ]
+
+    }
+	,
+	{
+        // BASIC INFORMATION
+
+        title: "A Mother’s Inferno",
+
+        type: "DADIU – National Academy of Digital Interactive Entertainment",
+
+        role: "Lead programmer",
+
+        description:
+            "First-person horror game developed in Unity3D during as a part of DADIU (Danish Academy of Digital and Interactive Entertainment). Released on December 9, 2011.",
+
+        thumbnail: "assets/projects/ami/amothersinferno.jpg",
+
+
+        // PROJECT DETAILS
+
+        details: {
+
+            overview:
+                "Write a detailed description of the project. Explain the game concept, its objectives, intended audience and current development status.",
+
+            contributions: [
+                "Designed and implemented the gameplay architecture.",
+                "Developed player and NPC gameplay systems.",
+                "Created interactive environmental mechanics.",
+                "Implemented custom Blueprint functionality."
+            ],
+
+
+            // TECHNICAL CHALLENGES
+
+            challenges: [
+
+                {
+                    title: "Challenge: Gameplay Architecture",
+
+                    problem:
+                        "Describe the technical problem you encountered. Explain why the existing approach was insufficient or what made the problem difficult.",
+
+                    solution:
+                        "Explain your solution, the architecture or algorithms you implemented and why you chose this approach."
+                },
+
+                {
+                    title: "Challenge: Character Systems",
+
+                    problem:
+                        "Describe another interesting technical challenge.",
+
+                    solution:
+                        "Explain how you solved it and what you learned."
+                }
+
+            ],
+
+
+            // PROJECT SCREENSHOTS
+
+            gallery: [
+
+                {
+                    src: "assets/projects/ami/ami-bull.jpg",
+                    caption: "Bull"
+                },
+
+                {
+                    src: "assets/projects/ami/ami-mother-glow.jpg",
+                    caption: "Mother glowing"
+                },
+				
+                {
+                    src: "assets/projects/ami/ami-mother-son.jpg",
+                    caption: "Mother and son"
+                },
+
+                {
+                    src: "assets/projects/ami/ami-train.jpg",
+                    caption: "Train interior"
+                }
+
+            ]
+
+        },
+
+
+        // TECHNOLOGIES
+
+        technologies: [
+            "Unity",
+            "C#"
+        ],
+
+
+        // EXTERNAL LINKS
+
+        links: [
+
+            {
+                label: "Facebook home of A Mother's Inferno",
+                url: "https://www.facebook.com/mothersinferno/"
+            },
+
+            {
+                label: "Markiplier play's A Mother's Inferno",
+                url: "https://www.youtube.com/watch?v=NOC3LcDEYXI"
             }
 
         ]
