@@ -185,7 +185,7 @@ projects: [
         role: "Founder / Programmer",
 
         description:
-            "Games platform for table-top-style local multiplayer games. Boardgames made digital, with a focus on social interaction.",
+            "Platform for table-top-style local multiplayer games. Boardgames made digital, with a focus on social interaction. The platform was released on iOS and Android and featured several smaller games.",
 
         thumbnail: "assets/projects/gamenyte/gamenyte-thumbnail.jpg",
 
@@ -259,9 +259,8 @@ projects: [
         // TECHNOLOGIES
 
         technologies: [
-            "Unreal Engine",
-            "Blueprint",
-            "C++"
+            "Unity3D",
+            "C#"
         ],
 
 
@@ -389,6 +388,115 @@ projects: [
             {
                 label: "Markiplier play's A Mother's Inferno",
                 url: "https://www.youtube.com/watch?v=NOC3LcDEYXI"
+            }
+
+        ]
+
+    }	
+	,
+	{
+        // BASIC INFORMATION
+
+        title: "GameAnalytics SDK",
+
+        type: "GameAnalytics",
+
+        role: "Programmer",
+
+        description:
+            "GameAnalytics was the first analytics platform specifically built for the gaming industry. I worked on several of the Game Engine SDKs, including Unity3D and Unreal Engine.",
+
+        thumbnail: "assets/projects/gameanalytics/gameanalytics-logo.png",
+
+
+        // PROJECT DETAILS
+
+        details: {
+
+            overview:
+                "Write a detailed description of the project. Explain the game concept, its objectives, intended audience and current development status.",
+
+            contributions: [
+                "Designed and implemented the gameplay architecture.",
+                "Developed player and NPC gameplay systems.",
+                "Created interactive environmental mechanics.",
+                "Implemented custom Blueprint functionality."
+            ],
+
+
+            // TECHNICAL CHALLENGES
+
+            challenges: [
+
+                {
+                    title: "Challenge: Gameplay Architecture",
+
+                    problem:
+                        "Describe the technical problem you encountered. Explain why the existing approach was insufficient or what made the problem difficult.",
+
+                    solution:
+                        "Explain your solution, the architecture or algorithms you implemented and why you chose this approach."
+                },
+
+                {
+                    title: "Challenge: Character Systems",
+
+                    problem:
+                        "Describe another interesting technical challenge.",
+
+                    solution:
+                        "Explain how you solved it and what you learned."
+                }
+
+            ],
+
+
+            // PROJECT SCREENSHOTS
+
+            gallery: [
+
+                {
+                    src: "assets/projects/rpg-project/screenshot-01.jpg",
+                    caption: "Gameplay environment"
+                },
+
+                {
+                    src: "assets/projects/rpg-project/screenshot-02.jpg",
+                    caption: "Gameplay systems"
+                },
+
+                {
+                    src: "assets/projects/rpg-project/screenshot-03.jpg",
+                    caption: "Technical implementation"
+                }
+
+            ]
+
+        },
+
+
+        // TECHNOLOGIES
+
+        technologies: [
+            "Unity3D",
+            "C#",
+            "Unreal Engine",
+			"C++"
+        ],
+
+
+        // EXTERNAL LINKS
+
+        links: [
+
+            {
+                label: "GitHub",
+                url: "https://github.com/YOUR_USERNAME/YOUR_PROJECT"
+            },
+
+            {
+                label: "Video",
+                url: "https://www.youtube.com/"
             }
 
         ]
